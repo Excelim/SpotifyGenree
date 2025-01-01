@@ -1,27 +1,26 @@
 # ✨ Analisis Big Data pada Dataset Spotify
 
-## 👤 Anggota Kelompok
-- **Excel Bima Evansyah** (NIM: 202110370311006)
-- **Muhammad Daffa** (NIM: 202110370311047)
-
 ---
 
 ## 📋 Daftar Isi
 1. [Pendahuluan](#pendahuluan)
 2. [Dataset yang Digunakan](#dataset-yang-digunakan)
-3. [Langkah-Langkah Analisis](#langkah-langkah-analisis)
-4. [Statistik dan Temuan Utama](#statistik-dan-temuan-utama)
+3. [Dependencies](#Dependencies)
+4. [Getting Started](#getting-started)
+5. [Langkah-Langkah Analisis](#langkah-langkah-analisis)
+6. [Statistik dan Temuan Utama](#statistik-dan-temuan-utama)
    - [Persebaran Tingkat Popularitas](#persebaran-tingkat-popularitas)
    - [Rata-rata Popularitas Berdasarkan Genre](#rata-rata-popularitas-berdasarkan-genre)
    - [Tren Popularitas Berdasarkan Tahun Rilis](#tren-popularitas-berdasarkan-tahun-rilis)
-5. [Wawasan Penting](#wawasan-penting)
-6. [Keterbatasan Analisis](#keterbatasan-analisis)
-7. [Saran Pengembangan](#saran-pengembangan)
-8. [Kontak](#kontak)
+7. [Wawasan Penting](#wawasan-penting)
+8. [Keterbatasan Analisis](#keterbatasan-analisis)
+9. [Saran Pengembangan](#saran-pengembangan)
+10. [Anggota Kelompok](#team)
+11. [Kontak](#kontak)
 
 ---
 
-## 🔍 Pendahuluan
+## 🔍 Pendahuluan <a name="pendahuluan"></a>
 
 ### Pengantar: Mengapa Analisis Ini Penting?
 Bayangkan dunia tanpa musik: membosankan, bukan? Musik adalah bagian penting dalam hidup kita, dan dengan kemajuan teknologi streaming seperti Spotify, kini kita dapat memahami pola mendengarkan musik lebih baik. Tapi dengan jutaan lagu di ujung jari, bagaimana kita tahu lagu mana yang paling relevan dan diminati?
@@ -31,7 +30,7 @@ Dalam proyek ini, kita akan menyelami data Spotify untuk menemukan pola menarik.
 
 ---
 
-## 🔢 Dataset yang Digunakan
+## 🔢 Dataset yang Digunakan <a name="dataset-yang-digunakan"></a>
 
 Dataset mencakup informasi lagu-lagu Spotify, termasuk:
 - Metadata: nama lagu, artis, album, popularitas.
@@ -41,7 +40,35 @@ Dataset ini diunduh dari Dropbox dan dianalisis menggunakan berbagai teknik eksp
 
 ---
 
-## ⚡ Langkah-Langkah Analisis
+## ⚙️ Dependencies <a name="Dependencies"></a>
+Proyek ini telah diuji pada lingkungan Google Colab. Berikut adalah beberapa library utama yang digunakan:
+
+pandas
+numpy
+matplotlib
+seaborn
+Semua library ini tersedia untuk diinstal melalui pip jika diperlukan di lingkungan lokal.
+
+## 🔄 **Getting Started** <a name="getting-started"></a>
+
+Ikuti langkah-langkah di bawah ini untuk menjalankan proyek:
+
+1. Clone repositori ini:
+
+   ```bash
+   git clone https://github.com/Excelim/SpotifyGenree.git
+   ```
+
+2. Buka Google Colab:
+
+   - Upload file notebook (`Analisa_Big_Data.ipynb`) ke Google Colab.
+   - Upload dataset (`spotify_songs.csv`) ke workspace.
+
+3. Jalankan semua sel di notebook untuk mereplikasi hasil analisis.
+
+---
+
+## ⚡ Langkah-Langkah Analisis <a name="langkah-langkah-analisis"></a>
 
 1. **Pembersihan Data**
    - Menangani nilai kosong dan data tidak valid.
@@ -63,7 +90,7 @@ Dataset ini diunduh dari Dropbox dan dianalisis menggunakan berbagai teknik eksp
 
 ---
 
-## 🔢 Statistik dan Temuan Utama
+## 🔢 Statistik dan Temuan Utama <a name="statistik-dan-temuan-utama"></a>
 
 ### Persebaran Tingkat Popularitas:
 | Popularitas | Jumlah Lagu |
@@ -72,7 +99,7 @@ Dataset ini diunduh dari Dropbox dan dianalisis menggunakan berbagai teknik eksp
 | Low         | 7,237       |
 | High        | 4,328       |
 
-### Rata-rata Popularitas Berdasarkan Genre:
+### Rata-rata Popularitas Berdasarkan Genre: <a name="rata-rata-popularitas-berdasarkan-genre"></a>
 | Genre | Popularitas Rata-rata |
 |-------|-----------------------|
 | EDM   | 35.04                |
@@ -82,26 +109,26 @@ Dataset ini diunduh dari Dropbox dan dianalisis menggunakan berbagai teknik eksp
 | Rap   | 43.22                |
 | Rock  | 41.97                |
 
-### Tren Popularitas Berdasarkan Tahun Rilis:
+### Tren Popularitas Berdasarkan Tahun Rilis: <a name="tren-popularitas-berdasarkan-tahun-rilis"></a>
 Lagu-lagu yang dirilis lebih baru cenderung memiliki tingkat popularitas yang lebih tinggi dibandingkan lagu lama.
 
 ---
 
-## 🔄 Wawasan Penting
+## 🔄 Wawasan Penting <a name="wawasan-penting"></a>
 1. **Popularitas Berdasarkan Genre**: Genre "Pop" memiliki popularitas tertinggi dibanding genre lain.
 2. **Tren Popularitas Berdasarkan Tahun**: Lagu baru lebih populer dibandingkan lagu lama.
 3. **Korelasi Fitur Musik**: Danceability dan energy berkontribusi signifikan terhadap popularitas lagu.
 
 ---
 
-## 🚫 Keterbatasan Analisis
+## 🚫 Keterbatasan Analisis <a name="keterbatasan-analisis"></a>
 1. **Keterbatasan Dataset**: Hanya mencakup lagu tertentu dari Spotify.
 2. **Fokus Popularitas**: Popularitas lagu dapat dipengaruhi faktor eksternal seperti promosi.
 3. **Penanganan Data Hilang**: Menggunakan median mungkin tidak sepenuhnya mencerminkan nilai sebenarnya.
 
 ---
 
-## 🎯 Saran Pengembangan
+## 🎯 Saran Pengembangan <a name="saran-pengembangan"></a>
 1. **Memperkaya Dataset**:
    - Tambahkan data wilayah pendengar dan strategi promosi.
    - Sertakan informasi dari platform streaming lain.
@@ -112,6 +139,10 @@ Lagu-lagu yang dirilis lebih baru cenderung memiliki tingkat popularitas yang le
 
 ---
 
-## 🌎 Kontak
+## 👤 Anggota Kelompok <a name="team"></a>
+- **Excel Bima Evansyah** (NIM: 202110370311006)
+- **Muhammad Daffa** (NIM: 202110370311047)
+
+## 🌎 Kontak <a name="kontak"></a>
 Terima kasih telah membaca analisis ini! Jika ada pertanyaan atau saran, silakan hubungi kami melalui email atau repositori GitHub kami.
 
