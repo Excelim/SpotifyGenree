@@ -24,12 +24,10 @@
 ## 🔍 Pendahuluan
 
 ### Pengantar: Mengapa Analisis Ini Penting?
-Musik memainkan peran penting dalam kehidupan sehari-hari. Dengan platform streaming seperti Spotify, perilaku mendengarkan musik semakin terdata, memungkinkan pemahaman lebih mendalam tentang preferensi pengguna. Namun, dengan jutaan lagu yang tersedia, bagaimana menemukan musik yang relevan bagi pengguna?
+Bayangkan dunia tanpa musik: membosankan, bukan? Musik adalah bagian penting dalam hidup kita, dan dengan kemajuan teknologi streaming seperti Spotify, kini kita dapat memahami pola mendengarkan musik lebih baik. Tapi dengan jutaan lagu di ujung jari, bagaimana kita tahu lagu mana yang paling relevan dan diminati?
 
 ### Rencana: Bagaimana Kita Mengatasi Masalah Ini?
-Proyek ini bertujuan mengeksplorasi pola dalam dataset Spotify guna memahami elemen yang membuat lagu populer. Wawasan ini berguna untuk:
-- Membuat rekomendasi musik yang lebih personal.
-- Mengoptimalkan playlist untuk pengguna.
+Dalam proyek ini, kita akan menyelami data Spotify untuk menemukan pola menarik. Apa yang membuat lagu menjadi populer? Bagaimana karakteristik genre memengaruhi popularitas? Jawaban atas pertanyaan ini bisa membantu dalam membangun rekomendasi musik yang lebih baik dan playlist yang sempurna.
 
 ---
 
